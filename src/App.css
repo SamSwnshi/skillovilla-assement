@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #520FB7;
+  margin-bottom: 10px;
+}
+
+.pokemon-card {
+  width: 167px;
+  height: 227.6px;
+  background: #fffaeb;
+  border-radius: 16.14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.pokemon-container {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  width: 1158.97px;
+  height: 1233.99px;
+  gap: 31.25px;
+}
+
+.pokemon-image {
+  width: 87.16px;
+  height: 88.78px;
+
+  border-radius: 56.5px;
+}
+
+.pokemon-name {
+  font-family: Figtree;
+  font-size: 16.14px;
+  font-weight: 700;
+  line-height: 22.6px;
+  text-align: center;
+}
+.pokemon-type {
+  font-family: Figtree;
+  font-size: 12.91px;
+  font-weight: 500;
+  line-height: 12.91px;
+  text-align: center;
+}
+
+.pokemon-number {
+  width: 45.14px;
+  height: 27.84px;
+  padding: 2.42px 8.07px 2.42px 8.07px;
+  gap: 8.07px;
+  border-radius: 6.46px;
+  background-color: #F0E7FD;
+}
+.pokemon-color{
+  background: #000;
+}
